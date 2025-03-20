@@ -36,7 +36,7 @@ pipeline {
         }
         stage('Publish Coverage Report') {
             steps {
-                recordCoverage(tools: [[parser: 'JACOCO'])
+                recordCoverage(tools: [[parser: 'JACOCO']])
             }
         }
 
