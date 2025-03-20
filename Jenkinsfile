@@ -2,7 +2,7 @@ pipeline {
     agent any
      environment {
             // Define Docker Hub credentials ID
-            DOCKERHUB_CREDENTIALS_ID = 'docker_cred_v2'
+            DOCKERHUB_CREDENTIALS_ID = 'docker-cred-v2'
             // Define Docker Hub repository name
             DOCKERHUB_REPO = 'veetikol/shoppingcart'
             // Define Docker image tag
