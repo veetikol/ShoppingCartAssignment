@@ -6,7 +6,7 @@ pipeline {
             // Define Docker Hub repository name
             DOCKERHUB_REPO = 'veetikol/shoppingcart'
             // Define Docker image tag
-            DOCKER_IMAGE_TAG = 'latest_v1'
+            DOCKER_IMAGE_TAG = 'latest'
         }
     stages {
         stage('Checkout') {
