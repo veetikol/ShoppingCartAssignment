@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>ShoppingCartAssignment</artifactId>
+    <artifactId>shoppingcart</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,7 +15,7 @@
     </properties>
 
     <build>
-        <finalName>ShoppingCartAssignment</finalName>
+        <finalName>shoppingcart</finalName>
         <plugins>
             <!-- Compiler Plugin for setting the Java version -->
             <plugin>
@@ -36,7 +36,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>TripCostCalculator</mainClass> <!-- Correct main class -->
+                            <mainClass>Main</mainClass> <!-- Correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
