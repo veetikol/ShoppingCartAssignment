@@ -4,7 +4,7 @@ pipeline {
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'docker_cred_v2'
             // Define Docker Hub repository name
-            DOCKERHUB_REPO = 'veetikol/week7_inclass1'
+            DOCKERHUB_REPO = 'veetikol/shoppingcart'
             // Define Docker image tag
             DOCKER_IMAGE_TAG = 'latest_v1'
         }
@@ -36,7 +36,7 @@ pipeline {
         }
         stage('Publish Coverage Report') {
             steps {
-                jacoco()
+                recordCoverage(tools: [[parser: 'JACOCO'])
             }
         }
 
